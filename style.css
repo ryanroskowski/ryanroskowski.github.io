@@ -1,0 +1,20 @@
+:root{--ink:#1C1A17;--cream:#F2E6C9;--red:#C8412B;--teal:#2E7D7A;--mustard:#E3A92B;--grey:#8C8A85}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:"Libre Baskerville",Georgia,serif;line-height:1.65}
+a{color:var(--teal)}a:hover{color:var(--red)}
+.masthead{border-bottom:6px double var(--ink);padding:.8rem 1.25rem;background:var(--ink)}
+.brand{font-family:Rye,serif;font-size:1.5rem;color:var(--cream);text-decoration:none;letter-spacing:.04em}
+.brand:hover{color:var(--mustard)}
+main{max-width:46rem;margin:0 auto;padding:2rem 1.25rem}
+.hero{text-align:center;padding:2rem 1rem;border:4px solid var(--ink);outline:3px solid var(--mustard);outline-offset:6px;background:#fff8e6;margin:1rem 0 2.5rem}
+.hero h1{font-family:Rye,serif;font-size:clamp(2.2rem,8vw,4rem);margin:.5rem 0;color:var(--red);text-shadow:3px 3px 0 var(--ink)}
+.tagline{font-family:Limelight,serif;font-size:1.35rem;margin:.25rem 0 1.5rem}
+.button{display:inline-block;background:var(--red);color:var(--cream);font-family:Limelight,serif;font-size:1.15rem;padding:.7rem 1.6rem;border:3px solid var(--ink);border-radius:999px;text-decoration:none;box-shadow:4px 4px 0 var(--ink)}
+.button:hover{background:var(--teal);color:var(--cream)}
+h2{font-family:Limelight,serif;color:var(--teal);font-weight:400}
+.doc h1{font-family:Rye,serif;color:var(--red);font-weight:400}
+.meta{font-family:"Courier Prime",monospace;color:var(--grey);font-size:.9rem}
+.doc li{margin-bottom:.6rem}
+.site-footer{border-top:6px double var(--ink);text-align:center;padding:1.5rem 1rem;font-family:"Courier Prime",monospace;font-size:.95rem}
+.site-footer nav a{margin:0 .75rem}
+.site-footer p{color:var(--grey);margin:.6rem 0 0}
