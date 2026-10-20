@@ -18,3 +18,9 @@ h2{font-family:Limelight,serif;color:var(--teal);font-weight:400}
 .site-footer{border-top:6px double var(--ink);text-align:center;padding:1.5rem 1rem;font-family:"Courier Prime",monospace;font-size:.95rem}
 .site-footer nav a{margin:0 .75rem}
 .site-footer p{color:var(--grey);margin:.6rem 0 0}
+.ledger-wrap{overflow-x:auto}
+.ledger{width:100%;border-collapse:collapse;font-size:.95rem;background:#fff8e6;border:3px solid var(--ink)}
+.ledger th{font-family:Limelight,serif;font-weight:400;text-align:left;background:var(--ink);color:var(--cream);padding:.5rem .6rem}
+.ledger td{padding:.45rem .6rem;border-top:1px solid #d9cba6;vertical-align:top}
+.ledger tr:nth-child(even) td{background:#f7edd2}
+.doc cite{font-style:italic}
